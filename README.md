@@ -20,4 +20,4 @@ get_phones('lyrics.txt')
 - Obtain lyrics2rhythm Checkpoints from [checkpoint_best.pt](https://msramllasc.blob.core.windows.net/modelrelease/lyric2rhythm_en_best.pt)
 - Obtain Template2melody Checkpoints from [checkpoint_best.pt](https://msramllasc.blob.core.windows.net/modelrelease/template2melody_best.pt)
 
-Place each checkpoint in its respective folder, and remove placeholder checkpoint in [Place checkpoints Here](Lyric-Melody-Generation/Lyric-to-Melody/checkpoints/)
+Place each checkpoint in its respective folder, and remove placeholder checkpoint in ---->  [Input checkpoints Here](https://github.com/benfenison/Lyric-Melody-Generation/tree/main/Lyric-to-Melody/checkpoints)
