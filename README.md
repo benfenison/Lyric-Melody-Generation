@@ -5,6 +5,9 @@ With thousands of distinctively different sounding rock songs produced up to now
 ## 2.Lyrics Generation
 The lyrics generation step requires a csv file containing a single column with rows of different song lyrics, 
 and the gpt2 pre-trained model which can be downloaded using the command `gpt_2_simple.download_gpt2(model_name="124M")`.
+
+The training data we used to fine-tune the GPT-2 model can be downloaded [here](https://drive.google.com/drive/folders/1zv6nbWG1YDBpUDHKIJJuUCeksbs9q7nN?usp=sharing), along with a fine-tuned checkpoint file.
+
 ### 2.1 Model fine-tuning
 To fine-tune a model, call the `GPT2_lyrics_train.py` file in the command line and provide the path to the csv file.
 
