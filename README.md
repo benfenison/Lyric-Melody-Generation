@@ -16,5 +16,8 @@ From Phonemization import get_phones
 get_phones('lyrics.txt')
 ```
 ### 3.2 Lyrics to Melody
+
 - Obtain lyrics2rhythm Checkpoints from https://msramllasc.blob.core.windows.net/modelrelease/lyric2rhythm_en_best.pt
 - Obtain Template2melody Checkpoints from https://msramllasc.blob.core.windows.net/modelrelease/template2melody_best.pt
+
+Place each checkpoint in its respective folder, and remove placeholder checkpoint in Lyric-Melody-Generation/Lyric-to-Melody/checkpoints/
