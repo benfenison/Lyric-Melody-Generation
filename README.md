@@ -7,7 +7,11 @@ With thousands of distinctively different sounding rock songs produced up to now
 ### 3.1 Preprocessing Lyrics
 Preprocessing the lyrics requires for the lyrics to be in the most basic level of speech, which is a phoneme. The combination of phonemes create words.
 ``` 
+! mkdir data/
+
+```
+
+``` 
 From Phonemization import get_phones
 get_phones('lyrics.txt')
-
 ```
