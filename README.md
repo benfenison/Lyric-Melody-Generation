@@ -15,3 +15,6 @@ Preprocessing the lyrics requires for the lyrics to be in the most basic level o
 From Phonemization import get_phones
 get_phones('lyrics.txt')
 ```
+### 3.2 Lyrics to Melody
+- Obtain lyrics2rhythm Checkpoints from https://msramllasc.blob.core.windows.net/modelrelease/lyric2rhythm_en_best.pt
+- Obtain Template2melody Checkpoints from https://msramllasc.blob.core.windows.net/modelrelease/template2melody_best.pt
