@@ -5,4 +5,7 @@ With thousands of distinctively different sounding rock songs produced up to now
 ## 2.Lyrics Generation
 ## 3.Lyric to Melody Generation
 ### 3.1 Preprocessing Lyrics
-``` From Phonemization import get_phones ```
+Preprocessing the lyrics requires for the lyrics to be in the most basic level of speech, which is a phoneme. The combination of phonemes create words.
+``` From Phonemization import get_phones
+get_phones('lyrics.txt')
+```
