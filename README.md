@@ -21,3 +21,11 @@ get_phones('lyrics.txt')
 - Obtain Template2melody Checkpoints from [checkpoint_best.pt](https://msramllasc.blob.core.windows.net/modelrelease/template2melody_best.pt)
 
 Place each checkpoint in its respective folder, and remove placeholder checkpoint in ---->  [Input checkpoints Here](https://github.com/benfenison/Lyric-Melody-Generation/tree/main/Lyric-to-Melody/checkpoints)
+
+Input lyrics.txt file & syllables.txt into this [repository](https://github.com/benfenison/Lyric-Melody-Generation/tree/main/Lyric-to-Melody/data/en/test)
+Edit Chord Progression at discretion
+
+```
+! cd Lyric-Melody-Generation/Lyric-to-Melody/
+! python infer_en.py lyric2rhythm template2melody test output
+```
